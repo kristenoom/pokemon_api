@@ -1,0 +1,207 @@
+:root {
+  --blue: #3c4dca;
+  --yellow: #fcdf4c;
+}
+
+body {
+  display: block;
+  background-image: url("./assets/xFuN7Fy-pokeball-wallpaper.jpg") no-repeat;
+  background: black;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+header {
+  align-content: center;
+  color: white;
+  margin-top: 15px;
+  text-align: center;
+  width: 100%;
+}
+
+img {
+  max-height: 200px;
+  margin: 5px;
+}
+p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* .pokemonLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+span {
+  color: #30a7d7;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+button {
+  text-transform: uppercase;
+}
+
+.btn {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.btn-primary {
+  align-content: center;
+  background-color: var(--blue);
+  display: flex;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* CARD */
+.card {
+  border: solid 12px var(--yellow);
+  border-radius: 10px;
+  max-width: 375px;
+}
+
+h5.card-title {
+  text-align: center;
+}
+
+.card-img-top {
+  background-color: lightgray;
+  border: solid 6px var(--yellow);
+  box-shadow: 2px 2px rgba(100, 100, 100, 0.3);
+  height: 200px;
+  width: 200px;
+  padding: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.card-content {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 5px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card .card-body button {
+  margin-top: 10px;
+}
+.card-body button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* CARD BACKGROUNDS */
+/* default */
+.card {
+  background-image: url(".assets/background_generic.png");
+}
+/* grass type pokemon */
+#bulbasaur,
+#ivysaur,
+#venusaur,
+#oddish,
+#gloom,
+#vileplume {
+  background-image: url("./assets/background_grass-type.png");
+}
+/* fire type pokemon */
+#charmander,
+#charmeleon,
+#charizard,
+#vulpix,
+#ninetails {
+  background-image: url("./assets/background_fire-type.png");
+}
+/* water type pokemon */
+#squirtle,
+#wartortle,
+#blastoise {
+  background-image: url("./assets/background_water-type.png");
+}
+
+/* bug type pokemon */
+#caterpie,
+#metapod,
+#butterfree,
+#weedle,
+#kakuna,
+#beedrill,
+#paras,
+#parasect,
+#venonat,
+#venomoth {
+  background-image: url("./assets/background_bug-type.png");
+}
+
+/* electric type pokemon */
+#pikachu,
+#raichu {
+  background-image: url("./assets/background_electric-type.png");
+}
+/* flying type pokemon */
+#pidgey,
+#pidgeotto,
+#pidgeot,
+#spearow,
+#fearow {
+  background-image: url(".assets/background_flying-type.png");
+}
+/* normal type pokemon */
+#rattata,
+#raticate,
+#sandshrew,
+#sandslash,
+#meowth {
+  background-image: url(".assets/background_generic.png");
+}
+/* poison type pokemon */
+#ekans,
+#arbok,
+#nidoran-f,
+#nidorina,
+#nidoqueen,
+#nidoran-m,
+#nidorino,
+#nidoking {
+  background-image: url(".assets/background_poison-type.png");
+}
+/* poison type pokemon */
+#clefairy,
+#clefable {
+  background-image: url(".assets/background_fairy-type.png");
+}
+
+/* MODAL */
+.modal-header,
+.modal-footer {
+  border: none;
+  margin: 0;
+}
+
+.modal-body {
+  margin: 0;
+}
+
+.modal-header,
+.modal-header h5 {
+  text-transform: uppercase;
+}
