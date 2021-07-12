@@ -112,7 +112,7 @@ h5.card-title {
 /* CARD BACKGROUNDS */
 /* default */
 .card {
-  background-image: url(".assets/background_generic.png");
+  background-image: url("./assets/background_generic.png");
 }
 /* grass type pokemon */
 #bulbasaur,
@@ -120,7 +120,22 @@ h5.card-title {
 #venusaur,
 #oddish,
 #gloom,
-#vileplume {
+#vileplume,
+#meganium,
+#bayleef,
+#chikorita,
+#bellsprout,
+#exeggutor,
+#exeggcute,
+#sunkern,
+#weepinbell,
+#sunflora,
+#tangela,
+#bellossom,
+#victreebel,
+#skiploom,
+#hoppip,
+#jumpluff {
   background-image: url("./assets/background_grass-type.png");
 }
 /* fire type pokemon */
@@ -128,13 +143,59 @@ h5.card-title {
 #charmeleon,
 #charizard,
 #vulpix,
-#ninetails {
+#ninetales,
+#moltres,
+#flareon,
+#magmar,
+#growlithe,
+#arcanine,
+#ponyta,
+#typhlosion,
+#quilava,
+#cyndaquil,
+#rapidash {
   background-image: url("./assets/background_fire-type.png");
 }
 /* water type pokemon */
 #squirtle,
 #wartortle,
-#blastoise {
+#blastoise,
+#psyduck,
+#golduck,
+#poliwag,
+#poliwhirl,
+#poliwrath,
+#tentacool,
+#lanturn,
+#croconaw,
+#totodile,
+#feraligatr,
+#chinchou,
+#tentacruel,
+#starmie,
+#staryu,
+#cloyster,
+#seaking,
+#goldeen,
+#seadra,
+#horsea,
+#slowpoke,
+#vaporeon,
+#lapras,
+#gyarados,
+#magikarp,
+#politoed,
+#azumarill,
+#marill,
+#slowbro,
+#kingler,
+#krabby,
+#slowking,
+#seel,
+#wooper,
+#quagsire,
+#dewgong,
+#shellder {
   background-image: url("./assets/background_water-type.png");
 }
 
@@ -145,16 +206,34 @@ h5.card-title {
 #weedle,
 #kakuna,
 #beedrill,
+#ariados,
+#spinarak,
+#ledian,
+#scyther,
+#pinsir,
+#ledyba,
 #paras,
 #parasect,
 #venonat,
-#venomoth {
+#venomoth,
+#yanma {
   background-image: url("./assets/background_bug-type.png");
 }
 
 /* electric type pokemon */
 #pikachu,
-#raichu {
+#raichu,
+#magnemite,
+#magneton,
+#zapdos,
+#pichu,
+#electrode,
+#voltorb,
+#mareep,
+#flaaffy,
+#jolteon,
+#electabuzz,
+#ampharos {
   background-image: url("./assets/background_electric-type.png");
 }
 /* flying type pokemon */
@@ -162,17 +241,11 @@ h5.card-title {
 #pidgeotto,
 #pidgeot,
 #spearow,
-#fearow {
-  background-image: url(".assets/background_flying-type.png");
+#fearow,
+#murkrow {
+  background-image: url("./assets/background_flying-type.png");
 }
-/* normal type pokemon */
-#rattata,
-#raticate,
-#sandshrew,
-#sandslash,
-#meowth {
-  background-image: url(".assets/background_generic.png");
-}
+
 /* poison type pokemon */
 #ekans,
 #arbok,
@@ -181,15 +254,72 @@ h5.card-title {
 #nidoqueen,
 #nidoran-m,
 #nidorino,
-#nidoking {
-  background-image: url(".assets/background_poison-type.png");
+#nidoking,
+#zubat,
+#crobat,
+#golbat,
+#grimer,
+#muk,
+#koffing,
+#weezing {
+  background-image: url("./assets/background_poison-type.png");
 }
-/* poison type pokemon */
+/* fairy type pokemon */
+#jigglypuff,
+#wigglytuff,
+#igglybuff,
 #clefairy,
-#clefable {
-  background-image: url(".assets/background_fairy-type.png");
+#clefable,
+#cleffa,
+#togepi,
+#togetic {
+  background-image: url("./assets/background_fairy-type.png");
+}
+/* ground type pokemon */
+#sandshrew,
+#sandslash,
+#diglett,
+#dugtrio,
+#rhydon,
+#rhyhorn,
+#geodude,
+#graveler,
+#golem {
+  background-image: url("./assets/background_ground-type.png");
+}
+/* psychic type pokemon */
+#abra,
+#kadabra,
+#mr-mime,
+#alakazam,
+#espeon,
+#xatu,
+#mew,
+#hypno,
+#drowzee,
+#mewtwo,
+#natu {
+  background-image: url("./assets/background_psychic-type.png");
 }
 
+/* ghost type pokemon */
+#gastly,
+#haunter,
+#gengar,
+#misdreavus {
+  background-image: url("./assets/background_poison-type.png");
+}
+/* dragon type pokemon */
+#dragonite,
+#dragonair,
+#dratini {
+  background-image: url("./assets/background_dragon-type.png");
+}
+/* ice type pokemon */
+#jynx,
+#articuno {
+  background-image: url("./assets/background_ice-type.png");
+}
 /* MODAL */
 .modal-header,
 .modal-footer {

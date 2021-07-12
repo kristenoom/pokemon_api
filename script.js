@@ -5,7 +5,7 @@ const pokedex = document.getElementById('pokedex');
 //loop through pokemon
 function fetchPokedex() {
     const promises = [];
-    for (let i = 1; i <= 150; i++) {
+    for (let i = 1; i <= 200; i++) {
         const baseURL = `https://pokeapi.co/api/v2/pokemon/${i}`;
         promises.push(fetch(baseURL).then((response) => response.json()));
     }
